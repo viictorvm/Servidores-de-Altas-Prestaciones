@@ -1,0 +1,16 @@
+<pregunta>
+  <enunciado>¿Qué es la escabilidad?</enunciado>
+  <opcionA>Capacidad para dar soporte a un número creciente de usuarios.</opcionA>
+  <opcionB>Acción que conlleva a subir o trepar por una gran pendiente o a una gran altura.</opcionB>
+  <opcionC>Posibilidad de realizar modificaciones directamente en el servidor en producción.</opcionC>
+  <opcionD>Ninguna de las anteriores.</opcionD>
+  <solucion>A</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>¿Cual es el porcentaje de uso de CPU máxima que no debemos sobrepasar?</enunciado>
+  <opcionA>Un 95%.</opcionA>
+  <opcionB>Un 99%.</opcionB>
+  <opcionC>No existe dicho "límite".</opcionC>
+  <opcionD>Un 90%.</opcionD>
+  <solucion>D</solucion>
+</pregunta>
