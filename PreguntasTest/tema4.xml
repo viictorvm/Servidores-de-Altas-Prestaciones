@@ -1,0 +1,16 @@
+<pregunta>
+  <enunciado>¿Con qué objetivo se inventó el DNS?</enunciado>
+  <opcionA>Para balancear la carga en los servidores.</opcionA>
+  <opcionB>Para conectar una granja web a internet de forma segura.</opcionB>
+  <opcionC>Ninguna de las anteriores.</opcionC>
+  <opcionD>Para resolver o traducir nombres a IPs.</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>Si queremos un sistema de balanceo basado en turnos. ¿Qué algoritmo eligirías?</enunciado>
+  <opcionA>Basado en prioridad.</opcionA>
+  <opcionB>Round-robin.</opcionB>
+  <opcionC>Basado en tiempo de respuesta.</opcionC>
+  <opcionD>Combinación de los algoritmos de tiempo de respuesta y menor número de conexiones.</opcionD>
+  <solucion>B</solucion>
+</pregunta>

@@ -1,0 +1,17 @@
+<pregunta>
+  <enunciado>¿Cuantas alternativas para conectar una granja web a otras redes hay?</enunciado>
+  <opcionA>sin DMZ, DMZ simple, DMZ tradicional y DMZ doble	.</opcionA>
+  <opcionB>DMZ simple y DMZ doble.</opcionB>
+  <opcionC>DMZ simple, DMZ tradicional y DMZ doble.</opcionC>
+  <opcionD>sin DMZ, DMZ simple y DMZ doble.</opcionD>
+  <solucion>A</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>En las alternativas para conectar una granja web a otras redes, ¿En cual de ellas los servidores están conectados directamente a Internet?</enunciado>
+  <opcionA>Configuración sin DMZ.</opcionA>
+  <opcionB>Configuración DMZ simple.</opcionB>
+  <opcionC>Configuración DMZ tradicional.</opcionC>
+  <opcionD>Configuración DMZ doble	.</opcionD>
+  <solucion>B</solucion>
+</pregunta>
