@@ -65,3 +65,20 @@ Una vez instalado y configurado correctamente ejecutaremos el comando `/usr/sbin
 
 Para comprobar que efectivamente el balanceador funciona sin problemas ejecutaremos `curl http://IPBALANCEO` y la salida
 de dicho comando será igual que al hacerlo con nginx.
+
+
+## Instalación y configuración de Pound. (Opcional)
+
+Lo primero que deberemos hacer es parar los servicios de nginx o haproxy ya que como comentamos antes habrá conflictos
+a la hora de escuchar por el puerto 80. (`sudo service NombreServicio stop`)
+
+Para instalar pound ejecutaremos el comando `sudo apt-get install pound`. La configuración será una bastante simple
+de la documentación de [pound](https://help.ubuntu.com/community/Pound) . Deberemos modificar el archivo alojado en /etc/pound llamado pound.cfg tal y como mostramos a continuación.
+
+<p align="center">
+    <img src="https://github.com/viictorvm/Servidores-de-Altas-Prestaciones/blob/master/Practicas/Pract3/capturas/poundconf.png" />
+</p>
+
+Como podemos ver en la captura la configuración se resume en la primera IP deberemos introducir la IP del balanceador y a continuación las dos IPs restantes igual que en los otros ejemplos. Siempre escuchará por el puerto 80.
+
+Una vez hecho esto, en el archivo /etc/default/pound deberemos poner la variable "startup" a 1. Seguidamente solo falta reiniciar  dicho servicio (`sudo /etc/init.d/pound start`) y al ejecutar el comando para mandar las peticiones (`curl http://IPBALANCEO`) nos saldrá nuevamente la salida como en el primer ejemplo.
