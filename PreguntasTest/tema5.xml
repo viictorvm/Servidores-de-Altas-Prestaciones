@@ -1,0 +1,17 @@
+<pregunta>
+  <enunciado>¿Qué tipo de tráfico consume más ancho de banda?</enunciado>
+  <opcionA>HTTP.</opcionA>
+  <opcionB>FTP o streaming .</opcionB>
+  <opcionC>Tienda web.</opcionC>
+  <opcionD>Todas consumen por igual.</opcionD>
+  <solucion>B</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>¿Cuales de los siguientes Benchmark pide la misma página repetidamente?</enunciado>
+  <opcionA>ab.</opcionA>
+  <opcionB>httperf.</opcionB>
+  <opcionC>OpenWebLoad.</opcionC>
+  <opcionD>Niguna de las anteriores.</opcionD>
+  <solucion>B</solucion>
+</pregunta>
+
