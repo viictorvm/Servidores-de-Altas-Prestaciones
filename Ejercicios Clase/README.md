@@ -1,1 +1,1 @@
-* Ejercicios propuestos de los diferentes temas a ver en clase.*
+*Ejercicios propuestos de los diferentes temas a ver en clase.*
