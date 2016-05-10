@@ -53,6 +53,8 @@ mediante el comando ` CREATE DATABASE ‘ejemplodb’;` (para ejecutar el comand
 
 Y ahora si podemos exportar la base de datos sin problemas.
 
+**NOTA:** Ambas base de datos deben de tener el mismo nombre, sino se actualizará como queremos.En este caso la base de datos debe llamarse "swap" y no "ejemplodb".
+
 ## Replicación de BD mediante una configuración maestro-esclavo
 
 Lo primero deberemos revisar que en ambas máquinas (1 y 2) tenemos la misma versión de mysql. Con el comando `mysql --version` podremos verificarlo. Para ambas máquinas serán la misma configuración menos la variable "server-id".
