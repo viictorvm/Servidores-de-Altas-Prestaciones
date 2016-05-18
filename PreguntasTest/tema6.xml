@@ -1,0 +1,17 @@
+<pregunta>
+  <enunciado>¿En qué se basa la seguridad?</enunciado>
+  <opcionA>Confidencialidad.</opcionA>
+  <opcionB>Integridad .</opcionB>
+  <opcionC>Disponibilidad.</opcionC>
+  <opcionD>Todas las anteriores.</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>¿Cual no es un nivel de políticas de seguridad?</enunciado>
+  <opcionA>Seguridad a nivel físico .</opcionA>
+  <opcionB>Seguridad a nivel de red .</opcionB>
+  <opcionC>Seguridad a nivel de administrador .</opcionC>
+  <opcionD>Seguridad a nivel de experto.</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
